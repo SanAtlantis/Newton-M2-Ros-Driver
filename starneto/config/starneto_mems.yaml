@@ -1,0 +1,4 @@
+node_rate: 100   # [Herz]
+serial_port: /dev/ttyUSB0
+GPFPD_output_topic: /GPFPD
+GTIMU_output_topic: /GTIMU

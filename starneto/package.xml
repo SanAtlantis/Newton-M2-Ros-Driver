@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>starneto_mems</name>
+  <version>1.0.0</version>
+  <description>Simple starneto_mems node</description>
+  <maintainer email="hcr2077@outlook.com">Huang Chenrui</maintainer>
+  <license>Apache License 2.0</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!--Other depends-->
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+  </export>
+</package>

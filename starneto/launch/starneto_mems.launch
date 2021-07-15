@@ -1,0 +1,5 @@
+<launch>
+    <node name="starneto_mems_node" pkg="starneto_mems" type="starneto_mems" output="screen">
+        <rosparam command="load" file="$(find starneto_mems)/config/starneto_mems.yaml" /> <!--Load parameters from config files-->
+    </node>
+</launch>
